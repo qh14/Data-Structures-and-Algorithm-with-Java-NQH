@@ -16,13 +16,13 @@
  + Mảng con đã được sắp xếp.
  + Mảng con còn lại chưa được sắp xếp.
  Trong mỗi lần lặp lại sắp xếp lựa chọn, phần tử tối thiểu (xét theo thứ tự tăng dần) từ mảng con chưa được sắp xếp sẽ được chọn và chuyển đến mảng con đã sắp xếp.
- Độ phức tạp thuật toán : O(n^2)
+ Độ phức tạp thuật toán : O(n^2)                                                                                                                                       
  1.4 Merge Sort                                                                                                                                                         
  Giả sử có hai danh sách đã được sắp xếp a[1 ... m] và b[1 ... n].
  Ta có thể trộn chúng lại thành một danh sách mới c[1 ... m+n] được sắp xếp theo cách sau:
  So sánh hai phần tử đứng đầu của hai danh sách, lấy phần tử nhỏ hơn cho vào danh sách mới. Tiếp tục như vậy cho tới khi một trong hai danh sách là rỗng.
  Khi một trong hai danh sách là rỗng ta lấy phần còn lại của danh sách kia cho vào cuối danh sách mới.
- Độ phức tạp thuật toán: O(nlog(n))
+ Độ phức tạp thuật toán: O(nlog(n))                                                                                                                                     
  1.5 Insertion Sort                                                                                                                                                     
   + Lặp lại từ arr[1] đến arr[n] trên mảng.
   + So sánh phần tử hiện tại (khóa) với phần tử trước của nó.
