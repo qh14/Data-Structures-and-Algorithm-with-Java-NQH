@@ -5,7 +5,7 @@
  Khi kết thúc vòng thứ nhất, ta sẽ đưa được phần tử lớn nhất về cuối dãy. Sang vòng thứ hai, ta tiếp tục bắt đầu ở vị trí đầu tiên như vậy và đưa được phần tử lớn thứ hai về vị trí thứ hai ở cuối dãy ...
  Độ phức tạp : O(n^2)
  * Hiệu suất chậm nhất trong các thuật toán sắp xếp.
- * Không hiệu quả với những dữ liệu lớn.
+ * Không hiệu quả với những dữ liệu lớn.                                                                                                                               
  1.2 Quick Sort                                                                                                                                                         
  Thuật toán Quick Sort chia mảng thành hai phần bằng cách so sánh từng phần tử của mảng với một phần tử được gọi là phần tử chốt. Một mảng bao gồm các phần tử nhỏ hơn hoặc bằng phần tử chốt và một mảng gồm các phần tử lớn hơn phần tử chốt.
  Quá trình phân chia này diễn ra cho đến khi độ dài của các mảng con đều bằng 1. Với phương pháp đệ quy ta có thể sắp xếp nhanh các mảng con sau khi kết thúc chương trình ta được một mảng đã sắp xếp hoàn chỉnh.
